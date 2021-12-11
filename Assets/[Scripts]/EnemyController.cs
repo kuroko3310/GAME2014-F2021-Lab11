@@ -143,6 +143,11 @@ public class EnemyController : MonoBehaviour
         {
             transform.SetParent(other.transform);
         }
+
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Flip();
+        }
     }
 
     private void OnCollisionExit2D(Collision2D other)

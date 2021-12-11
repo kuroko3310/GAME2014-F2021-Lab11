@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 2422414514851562760}
   m_Layer: 12
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -507,6 +507,7 @@ MonoBehaviour:
   fireDelay: 20
   player: {fileID: 0}
   bulletPrefab: {fileID: 2207681145639796414, guid: 278cf6d11d4ac084ca8edd2f6954411e, type: 3}
+  spitSound: {fileID: 0}
 --- !u!1 &4712367541516968545
 GameObject:
   m_ObjectHideFlags: 0
